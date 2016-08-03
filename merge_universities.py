@@ -8,8 +8,6 @@ from student.models import *
 import random, string
 import dateutil.parser
 
-from student.models import *
-
 class MyApp_MergeUniversities:
 
     def __init__(self, old_university_id, new_university_id):
